@@ -1,0 +1,25 @@
+@import './header.css';
+@import './filmes.css';
+
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+}
+
+html{
+     scroll-behavior: smooth;
+}
+
+body{
+     overflow-x: hidden;
+     font-family: "Poppins", sans-serif;
+     background-color: #1E1E1E;
+     color: #d9d4d4;
+}
+
+@media (width <= 520px){
+     
+}
